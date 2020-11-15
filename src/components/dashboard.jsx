@@ -1,5 +1,6 @@
 import React from "react";
 import CustomChart from "./common/customChart";
+import CustomTable from "./common/customTable";
 
 const Dashboard = () => {
   return (
@@ -77,6 +78,17 @@ const Dashboard = () => {
             max={2000}
             controls={true}
           />
+        </div>
+      </div>
+      <div class="card mb-4">
+        <div class="card-header">
+          <i class="fas fa-table mr-1"></i>
+          DataTable Example
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <CustomTable pagination={true} />
+          </div>
         </div>
       </div>
     </div>
