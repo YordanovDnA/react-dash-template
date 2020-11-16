@@ -14,7 +14,6 @@ import Footer from './components/footer';
 
 //Components for routing
 import Dashboard from './components/dashboard';
-import AddUser from './components/addUser';
 import AllUsers from './components/allUsers';
 import LoginForm from './components/loginForm';
 import RegisterForm from './components/registerForm';
@@ -79,7 +78,7 @@ const App = () => {
                       <AllUsers />
                     </Route>
                     <Route  path="/add-user">
-                      <AddUser />
+                      <RegisterForm />
                     </Route>
                     <Route exact path="/">
                       <Dashboard />
