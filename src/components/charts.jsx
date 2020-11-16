@@ -1,7 +1,5 @@
 import React from "react";
 import CustomChart from "./common/customChart";
-import ReactMarkdown from "react-markdown";
-import DefaultChartPath from "../data/defaultChart.md";
 
 const Charts = () => {
   return (
