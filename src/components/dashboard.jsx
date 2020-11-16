@@ -4,71 +4,71 @@ import CustomTable from "./common/customTable";
 
 const Dashboard = () => {
   return (
-    <div class="container-fluid">
-      <h1 class="mt-4">Dashboard</h1>
-      <ol class="breadcrumb mb-4">
-        <li class="breadcrumb-item active">Dashboard</li>
+    <div className="container-fluid">
+      <h1 className="mt-4">Dashboard</h1>
+      <ol className="breadcrumb mb-4">
+        <li className="breadcrumb-item active">Dashboard</li>
       </ol>
-      <div class="row">
-        <div class="col-xl-3 col-md-6">
-          <div class="card bg-primary text-white mb-4">
-            <div class="card-body">Primary Card</div>
-            <div class="card-footer d-flex align-items-center justify-content-between">
-              <a class="small text-white stretched-link" href="#">
+      <div className="row">
+        <div className="col-xl-3 col-md-6">
+          <div className="card bg-primary text-white mb-4">
+            <div className="card-body">Primary Card</div>
+            <div className="card-footer d-flex align-items-center justify-content-between">
+              <a className="small text-white stretched-link" href="#">
                 View Details
               </a>
-              <div class="small text-white">
-                <i class="fas fa-angle-right"></i>
+              <div className="small text-white">
+                <i className="fas fa-angle-right"></i>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-md-6">
-          <div class="card bg-warning text-white mb-4">
-            <div class="card-body">Warning Card</div>
-            <div class="card-footer d-flex align-items-center justify-content-between">
-              <a class="small text-white stretched-link" href="#">
+        <div className="col-xl-3 col-md-6">
+          <div className="card bg-warning text-white mb-4">
+            <div className="card-body">Warning Card</div>
+            <div className="card-footer d-flex align-items-center justify-content-between">
+              <a className="small text-white stretched-link" href="#">
                 View Details
               </a>
-              <div class="small text-white">
-                <i class="fas fa-angle-right"></i>
+              <div className="small text-white">
+                <i className="fas fa-angle-right"></i>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-md-6">
-          <div class="card bg-success text-white mb-4">
-            <div class="card-body">Success Card</div>
-            <div class="card-footer d-flex align-items-center justify-content-between">
-              <a class="small text-white stretched-link" href="#">
+        <div className="col-xl-3 col-md-6">
+          <div className="card bg-success text-white mb-4">
+            <div className="card-body">Success Card</div>
+            <div className="card-footer d-flex align-items-center justify-content-between">
+              <a className="small text-white stretched-link" href="#">
                 View Details
               </a>
-              <div class="small text-white">
-                <i class="fas fa-angle-right"></i>
+              <div className="small text-white">
+                <i className="fas fa-angle-right"></i>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-md-6">
-          <div class="card bg-danger text-white mb-4">
-            <div class="card-body">Danger Card</div>
-            <div class="card-footer d-flex align-items-center justify-content-between">
-              <a class="small text-white stretched-link" href="#">
+        <div className="col-xl-3 col-md-6">
+          <div className="card bg-danger text-white mb-4">
+            <div className="card-body">Danger Card</div>
+            <div className="card-footer d-flex align-items-center justify-content-between">
+              <a className="small text-white stretched-link" href="#">
                 View Details
               </a>
-              <div class="small text-white">
-                <i class="fas fa-angle-right"></i>
+              <div className="small text-white">
+                <i className="fas fa-angle-right"></i>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div className="row">
         {/* Line chart */}
-        <div class="col-xl-6">
+        <div className="col-xl-6">
           <CustomChart />
         </div>
-        <div class="col-xl-6">
+        <div className="col-xl-6">
           <CustomChart
             title="Chart with custom data"
             type="bar"
@@ -80,13 +80,13 @@ const Dashboard = () => {
           />
         </div>
       </div>
-      <div class="card mb-4">
-        <div class="card-header">
-          <i class="fas fa-table mr-1"></i>
+      <div className="card mb-4">
+        <div className="card-header">
+          <i className="fas fa-table mr-1"></i>
           DataTable Example
         </div>
-        <div class="card-body">
-          <div class="table-responsive">
+        <div className="card-body">
+          <div className="table-responsive">
             <CustomTable pagination={true} />
           </div>
         </div>

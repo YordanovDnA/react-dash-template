@@ -138,7 +138,7 @@ class CustomChart extends Component {
           <div className="card-header">
             <div className="d-flex justify-content-between">
               <h5>
-                <i class="fas fa-chart-line mr-1"></i>
+                <i className="fas fa-chart-line mr-1"></i>
                 {title}
               </h5>
               {/* Render the controls if controls is true in the state */}
