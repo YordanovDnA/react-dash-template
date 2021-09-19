@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-dash-template/static/css/main.ed618be0.chunk.css",
+    "main.js": "/react-dash-template/static/js/main.d85c4292.chunk.js",
+    "main.js.map": "/react-dash-template/static/js/main.d85c4292.chunk.js.map",
+    "runtime-main.js": "/react-dash-template/static/js/runtime-main.e1e4fc0a.js",
+    "runtime-main.js.map": "/react-dash-template/static/js/runtime-main.e1e4fc0a.js.map",
+    "static/css/2.43b2b750.chunk.css": "/react-dash-template/static/css/2.43b2b750.chunk.css",
+    "static/js/2.1509740f.chunk.js": "/react-dash-template/static/js/2.1509740f.chunk.js",
+    "static/js/2.1509740f.chunk.js.map": "/react-dash-template/static/js/2.1509740f.chunk.js.map",
+    "static/js/3.c9d932a8.chunk.js": "/react-dash-template/static/js/3.c9d932a8.chunk.js",
+    "static/js/3.c9d932a8.chunk.js.map": "/react-dash-template/static/js/3.c9d932a8.chunk.js.map",
+    "index.html": "/react-dash-template/index.html",
+    "static/css/2.43b2b750.chunk.css.map": "/react-dash-template/static/css/2.43b2b750.chunk.css.map",
+    "static/css/main.ed618be0.chunk.css.map": "/react-dash-template/static/css/main.ed618be0.chunk.css.map",
+    "static/js/2.1509740f.chunk.js.LICENSE.txt": "/react-dash-template/static/js/2.1509740f.chunk.js.LICENSE.txt",
+    "static/media/error-404-monochrome.a0894fb6.svg": "/react-dash-template/static/media/error-404-monochrome.a0894fb6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1e4fc0a.js",
+    "static/css/2.43b2b750.chunk.css",
+    "static/js/2.1509740f.chunk.js",
+    "static/css/main.ed618be0.chunk.css",
+    "static/js/main.d85c4292.chunk.js"
+  ]
+}
